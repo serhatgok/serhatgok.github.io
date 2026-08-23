@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Serhat Gök</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202124;
+      background: #ffffff;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 65px 24px 80px;
+    }
+
+    .color-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      height: 20px;
+      margin-bottom: 75px;
+    }
+
+    .blue {
+      background: #0b57f0;
+    }
+
+    .yellow {
+      background: #fbbc04;
+    }
+
+    .green {
+      background: #00a83e;
+    }
+
+    .pink {
+      background: #f72572;
+    }
+
+    .content {
+      max-width: 900px;
+      padding: 0 10px;
+    }
+
+    h1 {
+      margin: 0 0 45px;
+      font-size: 42px;
+      line-height: 1.1;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 0 0 45px;
+      font-size: 25px;
+      line-height: 1.3;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0 0 24px;
+      font-size: 21px;
+      line-height: 1.45;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      width: 100%;
+      background: #eeeeee;
+      padding: 36px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+    }
+
+    .social-link {
+      width: 42px;
+      height: 42px;
+      border: 2px solid #6f7479;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #60656a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .mail-icon {
+      font-size: 21px;
+      font-weight: normal;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        padding: 35px 20px 60px;
+      }
+
+      .color-bar {
+        height: 14px;
+        margin-bottom: 50px;
+      }
+
+      .content {
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 34px;
+        margin-bottom: 35px;
+      }
+
+      h2 {
+        font-size: 21px;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <div class="color-bar">
+      <div class="blue"></div>
+      <div class="yellow"></div>
+      <div class="green"></div>
+      <div class="pink"></div>
+    </div>
+
+    <div class="content">
+
+      <h1>Greetings!</h1>
+
+      <h2>Here's who I am and what I do:</h2>
+
+      <p>My name is Serhat. I am based in Istanbul.</p>
+
+      <p>
+        I work in operations management at an industry-leading BPO &amp; technology company.
+        You can see more about my business journey and connect me on
+        <a href="https://www.linkedin.com/in/s3rhatgok" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      </p>
+
+      <p>
+        I am a fan of rock music and science fiction movies. I am also interested in technology,
+        food and photography.
+      </p>
+
+      <p>
+        Feel free to
+        <a href="mailto:info@serhatgok.com">e-mail me</a>
+        for your queries.
+      </p>
+
+      <p>Thank you for visiting my personal website.</p>
+
+      <p>All the best.</p>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <a
+      class="social-link"
+      href="https://www.linkedin.com/in/s3rhatgok"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      in
+    </a>
+
+    <a
+      class="social-link mail-icon"
+      href="mailto:info@serhatgok.com"
+      aria-label="Email"
+    >
+      ✉
+    </a>
+
+  </footer>
+
+</body>
+</html>
